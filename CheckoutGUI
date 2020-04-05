@@ -31,7 +31,7 @@ class ProductItemGUI extends JFrame {
 	private JPanel panel,panel2;
 
 	public ProductItemGUI() {
-		this.setTitle("Hello from Charlie's Online Shopping Cart");
+		this.setTitle("Hello from Charlie's electronic Shopping Cart");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setBounds(100,100,600,380);
 		this.getContentPane().setBackground(Color.white);
@@ -475,29 +475,20 @@ class ProductDB {
 	ArrayList<Product> productList = new ArrayList<>();
 
 	public ProductDB(){
-		productList.add(new Product("Apple",100,100));
-		productList.add(new Product("Avocado",100,70));
-		productList.add(new Product("Banana",100,20));
-		productList.add(new Product("Cherry",100,600));
-		productList.add(new Product("Coconut",100,50));
-		productList.add(new Product("Durian",100,450));
-		productList.add(new Product("Grape",100,150));
-		productList.add(new Product("Grapefruit",100,88));
-		productList.add(new Product("Guava",100,33));
-		productList.add(new Product("Honeydew Melon",100,172));
-		productList.add(new Product("Kiwi Fruit",100,40));
-		productList.add(new Product("Lemon",100,20));
-		productList.add(new Product("Lichee",100,105));
-		productList.add(new Product("Orange",100,25));
-		productList.add(new Product("Papaya",100,55));
-		productList.add(new Product("Passion Fruit",100,23));
-		productList.add(new Product("Pear",100,110));
-		productList.add(new Product("Persimmon",100,48));
-		productList.add(new Product("Pineapple",100,79));
-		productList.add(new Product("Solomon",1,1));
-		productList.add(new Product("Tangerine",100,22));
-		productList.add(new Product("Watermelon",100,310));
-		productList.add(new Product("Love Apple",100,28));
+		productList.add(new Product("ihpone",100,5799));
+		productList.add(new Product("ipad",100,4799));
+		productList.add(new Product("Mac",100,6799));
+		productList.add(new Product("iwatch",100,2199));
+		productList.add(new Product("laptop",100,9999));
+		productList.add(new Product("keybroad",100,1099));
+		productList.add(new Product("headphone",100,1999));
+		productList.add(new Product("mouse",100,599));
+		productList.add(new Product("cables",100,199));
+		productList.add(new Product("screen",100,2199));
+		productList.add(new Product("sound",100,1299));
+		productList.add(new Product("calculater",100,199));
+		productList.add(new Product("cables",1000,129));
+		
 	}
 
 	public Product getProduct(String name) {
